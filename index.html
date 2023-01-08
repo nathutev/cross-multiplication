@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <title>Cross Multiplication</title>
+</head>
+<body>
+  <h1>Cross Multiplication</h1>
+  <div id="xDiv">
+    <input id="x" placeholder="x">
+    <input id="dotX" placeholder=".x">
+  </div>
+<label id="lines">=</label>
+  <div id="yDiv">
+    <input id="y" placeholder="y">
+    <input id="dotY" placeholder=".y">
+  </div>
+  <br>
+  <div id="divButton">
+    <button id="button" onclick="solve()">CALCULATE</button>
+  </div>
+  
+  <br>
+  <div id="divLabel">
+    <label class="label" id="ans">Answer: </label>
+    <label class="label" id="ansLabel"></label>
+  </div>
+  <div id="divLabel">
+    <label class="label" id="err">Error: </label>
+    <label class="label" id="errorLabel"></label>
+  </div>
+</body>
+</html>
