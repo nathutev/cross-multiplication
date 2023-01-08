@@ -64,8 +64,8 @@ function solve(){
 
   else if(dotY === "x"){
     x = Number(x);
-    dotX = Number(dotY);
-    y = Number(dotY);
+    dotX = Number(dotX);
+    y = Number(y);
     result = y * dotX / x;
     if(isNaN(result)){
       errorLabel.innerHTML = "not a number"
